@@ -1,0 +1,36 @@
+/* Set background custom */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpg'); /* Ganti dengan nama file background Anda */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Container untuk pemutar audio */
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Latar belakang semi-transparan */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling untuk pemutar audio */
+audio {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+/* Styling untuk judul */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
